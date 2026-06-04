@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Lamp{
+display: flex;
+flex-direction: inherit;
+justify-content: center;
+}
+
+.lamp img:hover{
+    cursor: not-allowed;
+    border: red dashed 5px;
+}
+
+.Switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Switch button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.Switch button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 3px solid blue;
+}
